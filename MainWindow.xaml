@@ -12,12 +12,12 @@
         </RichTextBox>
         <Canvas Margin="40,21,418,34" Background="#FF6C6CF5">
             <Label Content="Header" Canvas.Left="31" Canvas.Top="22"/>
-            <TextBox x:Name="txtHeader" Canvas.Left="31" TextWrapping="Wrap" Text="TextBox" Canvas.Top="60" Width="120" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtHeader" Canvas.Left="31" TextWrapping="Wrap" Canvas.Top="60" Width="120" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Your Header"/>
             <Label Content="Body" Canvas.Left="31" Canvas.Top="100" HorizontalAlignment="Center" VerticalAlignment="Top"/>
             <RichTextBox Height="191" Width="292" Canvas.Left="31" Canvas.Top="138" HorizontalAlignment="Center" VerticalAlignment="Top">
                 <FlowDocument>
                     <Paragraph>
-                        <Run x:Name="runBody" Text="RichTextBox"/>
+                        <Run x:Name="runBody" Text="Your Text"/>
                     </Paragraph>
                 </FlowDocument>
             </RichTextBox>
